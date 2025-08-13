@@ -20,7 +20,7 @@ module.exports.onStart = async function({ api, args, Users, event}) {
     var arraytag = [];
         arraytag.push({id: mention, tag: name});
     var a = function (a) { api.sendMessage(a, event.threadID); }
-a("তোর 𝐙𝐢𝐬𝐚 Abbu এর চোদা লো");
+a("তোর Zisan Abbu এর চোদা লো");
 setTimeout(() => {a({body: "খাংকির পোলা তর মারে চুদি  AMi ZISAN's-BOT 🥰।" + " " + name, mentions: arraytag})}, 3000);
 setTimeout(() => {a({body: "খাংকির পোলা তর কচি বোন রে আমি জিসান চুদি  😍.." + " " + name, mentions: arraytag})}, 5000);
 setTimeout(() => {a({body: "মাদারচোদ তর আম্মুর পম পম খাংকির পোলা আমি তোর বাপ জিসান 🐰" + " " + name, mentions: arraytag})}, 7000);
